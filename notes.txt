@@ -1,3 +1,4 @@
+Notes for the Git course by Colt Steele on Udemy
 Github course - Colt Steele
 
 What is Git?
@@ -26,7 +27,16 @@ A repository is a workspace which tracks and manages changes in the files within
 git log - Prints all the logs or entries done in that particular repository. 
 git status - Gives information on the status of the current repository.
 git init - initialises a new repository in the current folder on directory.
-Use cd . to return to the home directory. 
+Use 'cd ~' or 'cd' - to navigate back to the home directory.
+Use 'cd ..' to navigate up one directory level.
+Use 'cd -' to navigate to the previous directory.
+
+Git common mistake
+Do not run git init command already inside an initialised git repository. Always use git status to check the status of the current git repository.
+
+
+
+
 
 
 
