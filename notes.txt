@@ -1,0 +1,32 @@
+Github course - Colt Steele
+
+What is Git?
+Git is a VCS, It is a version control system, it helps to track and manages changes to files over time.
+They help in revising earlier version of files, undoing changes, sharing code to others, team members ,etc. Git is one of many version control systems. 
+
+What does Git help with?
+To compare versions of a project, time travel to a previous version of files. Collaborate and compare changes with people. Github like games helps you to create or maintain checkpoints for your code or your project, so that you can go back to the previous checkpoint and start from there instead of starting from scratch every single time. 
+
+Difference between Git and Github
+Git exists locally on your system, you don’t need internet to use it, whereas Github is a service which uses Git to work, it hosts your local repositories on your local machine to publish it on the cloud. You do need an internet connection to use Github. Once you changes or update your project via git on your local machine, you can update or upload that project to Github, which can be used by other people to collaborate with your project. Git and Github are not the same thing, Github is a tool that is built for Git and for Git users.
+
+Installing Git: Terminal vs GUIs
+What is a GUI? GUI stands for a graphical user interface. It’s basically a type of user interface which enables users to interact with the interface via graphical icons or graphical images. 
+
+Terminal basics
+ls - to list the contents of a directory.
+cd - to change the directory.
+rm - remove a particular file.
+rmdir - remove a particular directory.
+pwd - prints or displays the path for the current directory that is active.
+open - opens the directory in a visual form instead of the terminal based text form.
+
+Very basics of Git
+A repository is a workspace which tracks and manages changes in the files within a given folder.
+git log - Prints all the logs or entries done in that particular repository. 
+git status - Gives information on the status of the current repository.
+git init - initialises a new repository in the current folder on directory.
+Use cd . to return to the home directory. 
+
+
+
