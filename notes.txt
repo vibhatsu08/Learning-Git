@@ -34,6 +34,29 @@ Use 'cd -' to navigate to the previous directory.
 Git common mistake
 Do not run git init command already inside an initialised git repository. Always use git status to check the status of the current git repository.
 
+Git Committing workflow
+Each commit has a description and a title, and each commit is a snapshot in time of your workflow or project in time. It's not the same as saving a file, its something that's built on top of saving the files.
+The process of the committing workflow is like: Work on stuff, add changes, and commit the work done.
+
+Adding
+The 'git add' command is used to add changes to your existing workflow, or to stage the changes to be committed.
+When a commit is made, you are actually changing the contents of the '.git' folder in the current repository.
+You can 'git add' multiple files by separating the file names by a single space. 'git add filename1 filename2 ...'.
+Git add adds the files in the staging area, which after being changes or modified, is tracked by Git, After being added to the staging area, the files are ready to be committed to the working repository.
+
+Committing
+The files after being added to the staging area are now ready to be committed using the 'git commit' command.
+Whenever the 'git commit' command is used, Git, will ask you to enter a message, or a description that describes your particular git commit. 
+This can be done by two ways, first way is to just type 'git commit', and then the terminal will open a VIM editor, where you need to write your git commit message.
+The second way is to type the commit message in just one line, by using the 'git commit -m "your message"' command. 
+The '-m' tells Git, that the text after the '-m' is supposed to be a Git commit message/description.
+
+Logging
+By using the 'git log' command, Git shows all the previous commits done in that repository, with the respective Git commit name, date, time, git description/message and with a git commit hash.
+You can also use the 'git add .' command to add all the modified/changes files to the staging area.
+
+
+
 
 
 
