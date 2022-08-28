@@ -55,11 +55,21 @@ Logging
 By using the 'git log' command, Git shows all the previous commits done in that repository, with the respective Git commit name, date, time, git description/message and with a git commit hash.
 You can also use the 'git add .' command to add all the modified/changes files to the staging area.
 
+Atomic commits
+It means to keep each commit focussed on a single thing. It should refer to a single change. This makes it much easier to undo or comeback to the previous version.
+It's better to name each file while committing, instead of using the 'git add .' command after changing something from all the files.
+Makes the code easier to review, make the commits as tiny as possible. Keep them focussed on a single thing.
 
+Writing commit messages
+It's advised to write the commit messages in present tense. Write messages as if you are ordering the code base to do something.
+Sometimes using past tense for commits makes more sense for writing commits. It doesn't matter as long as the commits made makes sense to whatever code base you are writing to.
+If you are working on your personal project, do whatever makes sense, but if you are working on an open source public platform, read and follow the guidelines for the repository.
 
-
-
-
-
+Configuring Git and writing better Git commit messages
+One of the ways to write a git commit message is to use the 'git commit -m "your message"' command, and the other way is to use the 'git commit' message.
+When you use the 'git commit' command, the VIM editor asks you to enter the commit message.
+To start editing in the VIM editor, you need to enter into the INSERT mode, and by clicking the 'I' key, you can enter into the INSERT mode.
+Once that's done you can start with writing your commit message. 
+To exit the VIM editor, you need to click the ESCAPE key once, and then type ':wq' to save and quit the VIM editor. 'w' stands for write, which means to save whatever that's been written, and 'q' stands for quit, which means to quit the editor.
 
 
