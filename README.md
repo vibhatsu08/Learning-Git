@@ -6,3 +6,7 @@ LearningLog[1] - In this log, I started with learning what Git and Github is/are
 LearningLog[2] - In this log, i learnt about git based GUIs, like Gitkraken, helps to visualize commits done in Git. It's quite interesting to be able to visualize the commits with the help of these Graphical User Interfaces, although it's slower compared to terminal usage of Git. Also learnt to install and update Git and installed GitKraken.<br/>
 LearningLog[3] - In this log, just re read the basic Terminal commands, like ls, pwd, cd, mkdir, touch, rm, rmdir and many more. Learnt about the other git commands for nagivating through directories and folders, like 'cd -', 'cd ~', 'cd ..' etc.<br/>
 LearningLog[4] - In this log, i learnt about the the staging area, how to push files to the staging area and then how to commit files from the staging area. I learnt about the Git committing workflow. Learnt about Git messages/descriptions, how files are tracked through various changes, and how Git keeps a record of all the changes made via commits.<br/>
+LearningLog[5] - In this log, I learnt about Atomic commits, how to keep your commits to the point and what to keep in mind.
+How to write better git messages/descriptions using the VIM editor and also configuring your IDE for the same.<br/>
+LearningLog[6]
+
