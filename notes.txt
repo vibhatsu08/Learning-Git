@@ -88,3 +88,11 @@ Ignoring files in Git
 We can tell Git what files to ignore while committing, this helps to prevent adding any directories or files that might contain sensitive information for the user or for the particular device such as secrets, api keys, login credentials etc.
 While adding files to the staging area, to avoid adding the files that you want to avoid, it's better to create a '.gitignore' folder and store all the files in that folder, and then instead of using the 'git add .' command, it's better to use 'git add filename' command, and manually add each of the files except the '.gitignore' folder.
 
+Branching in Git
+When we make a commit, each commit has a hash.
+When working one a large scale project, at a big company, if the general way of commits is followed, which is in a linear fashion, then it would be practically impossible to work on things simultaneously, since each commit, would have a reference to the previous git commit.
+Each person working on the project would be implementing something completely different in the project, it's practically impossible for the team members to be working on the project if there is only one branch, and few are working on implementing a feature in the project, whereas the others are working on fixing a bug which would need to scrap huge chunks of the previous build.
+This is where Branches comes in Git. Branches is an essential part of Git, it helps create multiple timelines for a project, in which everyone could work on their own version of the branch, and the work done on one branch wouldn't affect the work done the other branch.
+Multiple branches can be made of a single branch.
+Once the work is done in multiple branches, the main focus is to merge all those different branches into the main branch, or the parent branch, to implement all the changes done in the previous branches.
+
