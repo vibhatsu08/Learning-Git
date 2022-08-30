@@ -108,3 +108,8 @@ HEAD is simply a pointer that refers to the current location in your repository.
 HEAD is always pointing to the last commit on our master branch.
 Branches can be considered to be like bookmarks in a book.
 
+Viewing all branches with Git branch
+By running the command 'git branch', you can get to know the active branch of your current repository. 
+The active branch of your repo has an asterisk at the side.
+
+
