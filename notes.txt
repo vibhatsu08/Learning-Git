@@ -112,4 +112,9 @@ Viewing all branches with Git branch
 By running the command 'git branch', you can get to know the active branch of your current repository. 
 The active branch of your repo has an asterisk at the side.
 
+Creating and Switching branches
+The command 'git branch' lists all the branches with the active branch, whereas the command 'git branch branchname' creates a branch with the given branch name.
+This above command just creates the branch, it doesn't switch to the created branch, the HEAD stays the same.
+To switch from the master/main branch to the newly created branch, use the 'git switch branchname' command.
+
 
