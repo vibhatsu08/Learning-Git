@@ -103,3 +103,8 @@ The master branch is like any other branch with just a name. We didn't name it t
 Github in the year 2020, changed the default branch name from master to main, but Git still continues to keep its default branch name as master.
 They both are like any other branches, but just with different names. It's easy to change the default branch name, like any other branch name.
 
+What is HEAD?
+HEAD is simply a pointer that refers to the current location in your repository. It points to a particular branch reference.
+HEAD is always pointing to the last commit on our master branch.
+Branches can be considered to be like bookmarks in a book.
+
