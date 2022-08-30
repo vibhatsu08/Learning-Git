@@ -72,4 +72,19 @@ To start editing in the VIM editor, you need to enter into the INSERT mode, and 
 Once that's done you can start with writing your commit message. 
 To exit the VIM editor, you need to click the ESCAPE key once, and then type ':wq' to save and quit the VIM editor. 'w' stands for write, which means to save whatever that's been written, and 'q' stands for quit, which means to quit the editor.
 
+Closer look at the Log command
+Commit messages are pretty descriptive, and because of that a whole chunk of the screen is occupied. 
+To avoid things like that one of the ways to get cleaner results when using the 'git log' command is to use the 'git log --oneline' command.
+By using this command, the logs printed would be in a much cleaner format, since the output shown in the terminal would only display the first line of the however descriptive message that you've written for your specific commit.
+For this reason, it is advised that your commit messages should have the first line as a summary of the entire commit message that you have written or are going to write for the stuff that you are going to commit to a specific repository.
+
+Amending commits
+Forgetting to add files when commiting happens quite often. So instead of re committing all the work done that has already been covered in the previous commit, an other alternative is to use something called as the Git amend command.
+The git amend command is as follows: 'git commit --amend'
+The git amend command only works for your ongoing commit, it doesn't work for something like 5 commits ago. 
+The git amend command is also useful if there are any typos made in the commit message or you've forgotten to add a file to the staging area and you've already run the git commit command.
+
+Ignoring files in Git
+We can tell Git what files to ignore while committing, this helps to prevent adding any directories or files that might contain sensitive information for the user or for the particular device such as secrets, api keys, login credentials etc.
+While adding files to the staging area, to avoid adding the files that you want to avoid, it's better to create a '.gitignore' folder and store all the files in that folder, and then instead of using the 'git add .' command, it's better to use 'git add filename' command, and manually add each of the files except the '.gitignore' folder.
 
