@@ -96,3 +96,10 @@ This is where Branches comes in Git. Branches is an essential part of Git, it he
 Multiple branches can be made of a single branch.
 Once the work is done in multiple branches, the main focus is to merge all those different branches into the main branch, or the parent branch, to implement all the changes done in the previous branches.
 
+Master branch or Main?
+While working on Git or Github, the default branch is known as the master branch, it is the branch that you work on from the beginning whenever you work on a project.
+The master branch is not the ultimate branch, it's just a name of the branch, it doesn't hold any kind of ultimate power in Git.
+The master branch is like any other branch with just a name. We didn't name it the Master branch, that's just the default name for the branch.
+Github in the year 2020, changed the default branch name from master to main, but Git still continues to keep its default branch name as master.
+They both are like any other branches, but just with different names. It's easy to change the default branch name, like any other branch name.
+
