@@ -117,4 +117,8 @@ The command 'git branch' lists all the branches with the active branch, whereas 
 This above command just creates the branch, it doesn't switch to the created branch, the HEAD stays the same.
 To switch from the master/main branch to the newly created branch, use the 'git switch branchname' command.
 
-
+Git Checkout vs Git Switch
+The 'git checkout branchname' is the older way of switching branches, using this command not only switches the branch, but also does a lot other things in addition to that.
+So, a much simpler command is now used for the purpose of switching branches, the 'git switch branchname' command.
+Instead of creating a branch and switching to that branch in two different steps, it's better to do all that in just one command.
+The 'git switch -c branchname' command not only creates a branch, but also switches to that branch that you just created.
