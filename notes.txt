@@ -126,3 +126,8 @@ The 'git switch -c branchname' command not only creates a branch, but also switc
 Switching branch with unstages changes
 While working on a project, if you are on a separate branch, and after working you want to switch the branch with unsaved work on that branch, git will alert you to save the changes by committing your work, otherwise you won't be allowed to move forward with switching to an other branch.
 Commit your work on that branch, and then switch to an other branch.
+
+Deleting and Renaming branches
+The git command to delete a branch is 'git branch -D branchname', the '-D' is for forceful deletion, because Git doesn't allow the user to delete the branch without having the branch merged with the main branch.
+The git command to rename a branch is 'git branch -m newbranchname', the '-m' is the part of the command that helps in the renaming of the branch.
+One important thing to remember, is that, while deleting a branch, you need to be anywhere but in the branch that you want to delete, wherease while renaming a branch you have to be in that current branch that you want to rename.
