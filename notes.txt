@@ -122,3 +122,7 @@ The 'git checkout branchname' is the older way of switching branches, using this
 So, a much simpler command is now used for the purpose of switching branches, the 'git switch branchname' command.
 Instead of creating a branch and switching to that branch in two different steps, it's better to do all that in just one command.
 The 'git switch -c branchname' command not only creates a branch, but also switches to that branch that you just created.
+
+Switching branch with unstages changes
+While working on a project, if you are on a separate branch, and after working you want to switch the branch with unsaved work on that branch, git will alert you to save the changes by committing your work, otherwise you won't be allowed to move forward with switching to an other branch.
+Commit your work on that branch, and then switch to an other branch.
