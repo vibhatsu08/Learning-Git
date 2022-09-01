@@ -10,4 +10,5 @@ LearningLog[5] - In this log, I learnt about Atomic commits, how to keep your co
 How to write better git messages/descriptions using the VIM editor and also configuring your IDE for the same.<br/>
 LearningLog[6] - In this log, I learnt about creating and switching branches. The difference between checkout and switching branches' commands. Basically how to create a branch using the 'git branch branchname' command, how to see the branches that you have using the 'git branch' command, how to switch to a branch that you just created, with the 'git switch branchname' command, and in case that all feels too tedious and a long procedure to create and switch to a branch, the best way is to use the 'git switch -c branchname', this command not only creates a branch, but also switches to that branch that you just created. <br/>
 LearningLog[7] - In this log, i learnt what happens when i try to switch to a branch without saving/commiting the previous work done on the branch. <br/>
+LearningLog[8] - In this log, i solved the Branching Excercise given in the course. <br/>
 
