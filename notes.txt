@@ -131,3 +131,20 @@ Deleting and Renaming branches
 The git command to delete a branch is 'git branch -D branchname', the '-D' is for forceful deletion, because Git doesn't allow the user to delete the branch without having the branch merged with the main branch.
 The git command to rename a branch is 'git branch -m newbranchname', the '-m' is the part of the command that helps in the renaming of the branch.
 One important thing to remember, is that, while deleting a branch, you need to be anywhere but in the branch that you want to delete, wherease while renaming a branch you have to be in that current branch that you want to rename.
+
+Branching exercise
+Solved the branching exercise in the course. Created a directory, and then created an empty folder in it called 'Patronus'.
+Next, initiated a repo in that directory, with the command 'git init'.
+Next, created a new file called 'Patronus.txt'.
+Next, added and committed the file in that repo.
+Next, created two branches, 'Harry' and 'Snape', both on the main/master branch, using the commands 'git branch harry' and 'git branch snape'.
+Next, edited and added the text to 'Patronus.txt' to Harry's Patronus.
+Next, added and committed the file, 'Patronus.txt'.
+Next, switched to the 'Snape' branch, and opened the 'Patronus.txt' file, using the 'git switch snape' command.
+Next, edited the 'Patronus.txt' file, to add Snape's Patronus.
+Next, added and committed the file 'Patronus.txt'.
+Next, created and switched to a new branch called 'Lily' based on the 'Snape' branch, using the 'git switch -c lily' command.
+Next, edited the 'Patronus.txt' file in 'Lily' branch, and added Lily's Patronus.
+Next, switched to the main branch, using the 'git switch main' command.
+Next, listed all the branches using the 'git branch' command.
+Next, deleted 'Snape' branch, using the 'git branch -D snape' command.
