@@ -157,3 +157,9 @@ We merge branches not specific commits. We always merge to the current HEAD bran
 Suppose there are two brances, the 'master' branch and the 'bugfix' branch, if you want merge these two branches, first you need to switch to the receiving branch, which in this case is the 'master' branch, and then use the merge command, 'git merge bugfix'.
 So this command, takes all the commits from the bugfix and merges it with the commits of the master branch.
 
+Performing a fast forward merge
+A fast forward merge is a special case of a merge, simpler merge to perform, commands are the same, from git's perspective it's easy. All it has to do is move up the pointer some number of commits, to fast foward to some destination commit.
+By using the command 'git branch -v', it gives more information about the branches than what the usual command would give, it shows details about the last commit, the tip of the branch and the commit message alongside the branch name.
+By merging two branches, the branch merged doesn't get deleted, it still stays on the system, you can always edit and add stuff in that particular branch. 
+The branches don't always stay in sync, merging is required to do that.
+
