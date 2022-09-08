@@ -163,3 +163,8 @@ By using the command 'git branch -v', it gives more information about the branch
 By merging two branches, the branch merged doesn't get deleted, it still stays on the system, you can always edit and add stuff in that particular branch. 
 The branches don't always stay in sync, merging is required to do that.
 
+Generating merge commits
+Suppose you are working on a project, and you've created a separate branch from the master/main branch, but your teammate who is also working on the same project, makes some changes on the master/main branch.
+Now your particular branching doesn't have the commits that were made on the master/main branch, what happens in these scenarios, something called as a merge commit is made, basically git makes a merge commit on the recipient branch, and then it prompts us to include a message. 
+This commit is the first commit that has two different parent commits, every commits has one parent commit, commits can have mulitple parent commits.
+
