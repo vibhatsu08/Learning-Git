@@ -148,3 +148,12 @@ Next, edited the 'Patronus.txt' file in 'Lily' branch, and added Lily's Patronus
 Next, switched to the main branch, using the 'git switch main' command.
 Next, listed all the branches using the 'git branch' command.
 Next, deleted 'Snape' branch, using the 'git branch -D snape' command.
+
+Merging Branches
+Branching is super easy to work within self contained context, but sometimes you need to incorporate your work with the final version of a project or with somebody else's version, here is where merging branches comes in handy.
+This can be done by using the 'git merge' command.
+A really common workflow is to treat the master/main branch, the most stable build of an application, no experiments on that branch, so developers work on an other branch called the feature branch, which is the one where all the experimentation and all the other feature testing is done.
+We merge branches not specific commits. We always merge to the current HEAD branch.
+Suppose there are two brances, the 'master' branch and the 'bugfix' branch, if you want merge these two branches, first you need to switch to the receiving branch, which in this case is the 'master' branch, and then use the merge command, 'git merge bugfix'.
+So this command, takes all the commits from the bugfix and merges it with the commits of the master branch.
+
