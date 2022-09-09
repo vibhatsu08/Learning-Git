@@ -168,3 +168,12 @@ Suppose you are working on a project, and you've created a separate branch from 
 Now your particular branching doesn't have the commits that were made on the master/main branch, what happens in these scenarios, something called as a merge commit is made, basically git makes a merge commit on the recipient branch, and then it prompts us to include a message. 
 This commit is the first commit that has two different parent commits, every commits has one parent commit, commits can have mulitple parent commits.
 
+Merge conflicts
+Depending on the specific changes that you've made, git may not be able to merge some changes from one repo to the other, this results in merge conflicts that you manually need to resolve.
+
+Resolving merge conflicts
+    - Open the files with merge conflicts.
+    - Edit the files to remove the conflicts, decide which content you want to keep.
+    - Remove the conflict markers from the document.
+    - Add your changes and then make the commit.
+    
