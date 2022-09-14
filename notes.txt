@@ -176,4 +176,3 @@ Resolving merge conflicts
     - Edit the files to remove the conflicts, decide which content you want to keep.
     - Remove the conflict markers from the document.
     - Add your changes and then make the commit.
-    
